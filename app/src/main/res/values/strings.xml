@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Food App</string>
+    <string name="titulo">FOOD APP</string>
+    <string name="email">EMAIL</string>
+    <string name="password">PASSWORD</string>
+    <string name="sesion">INICIAR SESIÓN</string>
+    <string name="direccion">DIRECCION</string>
+    <string name="numero">NUMERO, PISO Y PUERTA</string>
+    <string name="crear">CREAR CUENTA</string>
+    <string name="menus">MENÚS</string>
+    <string name="receta">RECETAS</string>
+    <string name="pagar">PAGAR</string>
+    <string name="cancelar">CANCELAR PEDIDO</string>
+    <string name="dni">DNI</string>
+    <string name="tarjeta">NUMERO DE TARJETA</string>
+    <string name="pedido">PEDIDO ENTERO</string>
+</resources>
