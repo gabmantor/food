@@ -4,8 +4,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
-import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -23,5 +25,38 @@ public class MainActivity extends AppCompatActivity {
     public void onClickIniciaSesion(View view){
 
 
+    }
+    public boolean onCreateOptionsMenu(Menu menu){
+
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.menu, menu);
+
+        return true;
+    }
+
+    public boolean onOptionsItemSelected(MenuItem menuItem){
+
+        switch (menuItem.getItemId()){
+
+            case R.id.plato:
+
+                return true;
+
+            case R.id.receta:
+
+                return true;
+
+            case R.id.settings:
+
+                return true;
+
+            case R.id.salir:
+
+                return true;
+
+            default:
+
+                return super.onOptionsItemSelected(menuItem);
+        }
     }
 }

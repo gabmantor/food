@@ -24,7 +24,7 @@
             android:name=".Opcion"
             android:exported="false" />
         <activity
-            android:name=".Menu"
+            android:name=".Plato"
             android:exported="false" />
         <activity
             android:name=".CrearCuenta"

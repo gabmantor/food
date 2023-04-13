@@ -14,4 +14,7 @@
     <string name="dni">DNI</string>
     <string name="tarjeta">NUMERO DE TARJETA</string>
     <string name="pedido">PEDIDO ENTERO</string>
+    <string name="plato">MENÚS</string>
+    <string name="settings">SETTINGS</string>
+    <string name="salir">CERRAR SESIÓN</string>
 </resources>

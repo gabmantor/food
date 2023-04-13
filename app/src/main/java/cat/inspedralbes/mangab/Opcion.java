@@ -15,7 +15,7 @@ public class Opcion extends AppCompatActivity {
     }
     public void onClickMenu(View view){
 
-        Intent intent = new Intent(this, Menu.class);
+        Intent intent = new Intent(this, Plato.class);
         startActivity(intent);
     }
     public void onClickReceta(View view){
