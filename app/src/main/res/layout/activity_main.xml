@@ -14,6 +14,7 @@
         android:background="#070707"
         android:backgroundTint="#000000"
         android:foregroundTint="#000000"
+        android:onClick="onClickIniciaSesion"
         android:text="@string/sesion"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
