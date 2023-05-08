@@ -18,4 +18,10 @@
     <string name="settings">SETTINGS</string>
     <string name="salir">CERRAR SESIÓN</string>
     <string name="usuario">NOMBRE DE USUARIO</string>
+    <string name="bebida">BEBIDAS</string>
+    <string name="aperitivo">APERITIVOS</string>
+    <string name="hamburguesas">HAMBURGUESAS</string>
+    <string name="pizza">PIZZAS</string>
+    <string name="principal">PRINCIPALES</string>
+    <string name="postre">POSTRES</string>
 </resources>

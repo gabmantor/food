@@ -19,4 +19,10 @@ public class Plato extends AppCompatActivity {
         Intent intent = new Intent(this, Opcion.class);
         startActivity(intent);
     }
+
+    public void onClickPagar(View view){
+
+        Intent intent = new Intent(this, Pago.class);
+        startActivity(intent);
+    }
 }

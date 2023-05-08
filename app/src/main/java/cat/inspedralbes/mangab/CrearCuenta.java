@@ -27,8 +27,6 @@ public class CrearCuenta extends AppCompatActivity {
         EditText email = findViewById(R.id.editTextTextPersonName3);
         EditText password1 = findViewById(R.id.editTextTextPersonName4);
         EditText password2 = findViewById(R.id.editTextTextPersonName8);
-        EditText direccion = findViewById(R.id.editTextTextPersonName5);
-        EditText numero = findViewById(R.id.editTextTextPersonName6);
 
         String textPassword1 = password1.getText().toString();
         String textPassword2 = password2.getText().toString();
@@ -38,13 +36,12 @@ public class CrearCuenta extends AppCompatActivity {
             String textNombre = nombre.getText().toString();
             String textEmail = email.getText().toString();
             String textPassword = password1.getText().toString();
-            String textDireccion = direccion.getText().toString();
-            String textNumero = numero.getText().toString();
+
 
             try {
 
                 HttpClient httpClient = new DefaultHttpClient();
-                HttpPost httpPost = new HttpPost("http://gabriel.alumnes.inspedralbes.cat/crear.php?nickname"+textNombre+"&email="+textEmail+"&password="+textPassword+"&direccion"+textDireccion+"&numero"+textNumero);
+                HttpPost httpPost = new HttpPost("");
                 HttpResponse response = httpClient.execute(httpPost);
 
 
